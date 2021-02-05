@@ -1,0 +1,15 @@
+[Unit]
+Description=LCD messages
+Requires=network.target
+After=graphical.target relays.service
+ 
+[Service]
+ExecStart=/usr/bin/python3 lcd.py
+WorkingDirectory=/opt
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=root
+ 
+[Install]
+WantedBy=graphical.target

@@ -1,0 +1,15 @@
+[Unit]
+Description=Enable relays for outlets
+Requires=network-online.target
+After=default.target
+ 
+[Service]
+ExecStart=/bin/bash relays_on.sh
+WorkingDirectory=/opt
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=root
+ 
+[Install]
+WantedBy=default.target
