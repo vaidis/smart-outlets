@@ -5,16 +5,16 @@
       "name": "guest",
       "pass": "",
       "role": "guest",
-      "dark": true
+      "dark": false
     },
     {
       "id": 1,
       "name": "admin",
       "pass": "1234",
       "role": "admin",
-      "dark": false,
-      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjEyNTIzMTQ3LCJleHAiOjE2MTI5NTUxNDd9.eVOtmVSDsLwnQwfpvu45bJLDrcn1fImjDBf5iNwBnGc",
-      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjEyNTIzMTQ3LCJleHAiOjE2MTI1MjMyMDd9.Ca8IOxmJnfyZSPOTgyjzKT9GrAJE3Pv9zlR9FhmRtjw"
+      "dark": true,
+      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjEyNTU2ODc1LCJleHAiOjE2MTI5ODg4NzV9.ZCGsW_p7nbcqe0kD-LcWm_vgViOoqoXCllIpjrTygMc",
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjEyNTU2ODc1LCJleHAiOjE2MTI1NTY5MzV9.uw3xKiBGrflr9axbsDT-XeFSB7JwLlaxbAU-uVhucXQ"
     },
     {
       "id": 2,
@@ -29,14 +29,14 @@
   "outlets": [
     {
       "id": 0,
-      "name": "Server Linux",
+      "name": "Server Gentoo",
       "power": true,
       "timer": false,
       "gpio": "./gpio16"
     },
     {
       "id": 1,
-      "name": "Desktop Linux 2",
+      "name": "Desktop Mint 20",
       "power": true,
       "timer": false,
       "gpio": "./gpio20"
@@ -44,7 +44,7 @@
     {
       "id": 2,
       "name": "Printer Laser",
-      "power": true,
+      "power": false,
       "timer": true,
       "gpio": "./gpio21"
     }
