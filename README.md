@@ -7,9 +7,10 @@
  - **Frontend:** React.js with Redux / Saga
 
 
-![Alt text](https://github.com/vaidis/enviromon-front/blob/master/smart-outlets_fn.jpg?raw=true)
+![Alt text](https://github.com/vaidis/smart-outlets/blob/main/smart-outlets_fn.jpg?raw=true)
 
-![Alt text](https://github.com/vaidis/enviromon-front/blob/master/smart-outlets_bb.png?raw=true)
+
+![Alt text](https://github.com/vaidis/smart-outlets/blob/main/smart-outlets_bb.png?raw=true)
 
 ![Alt text](https://github.com/vaidis/enviromon-front/blob/master/smart-outlets_screens.png?raw=true)
 
