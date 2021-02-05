@@ -14,7 +14,7 @@
 
 ![Alt text](https://github.com/vaidis/smart-outlets/blob/main/smart-outlets_screens.jpg?raw=true)
 
-Toodo:
+Todo:
 - Log access/actions
 - 4G / SMS controll
 - Current meters
